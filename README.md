@@ -8,6 +8,9 @@ SpamBusters is a Chrome extension that detects fake, AI-generated, and suspiciou
 
 Online shopping relies heavily on social proof, but the rise of LLMs has made it nearly impossible to distinguish between a genuine customer and an AI-generated bot review. Users are often misled by "10/10" ratings that are entirely fabricated.SpamBusters helps users evaluate review authenticity directly on the page, saving time and money.
 
+## Demo-Video Link-
+https://youtu.be/4ivGEatwJm8?si=2QhOTWH0dauhBMsK
+
 ## Installation and setup
 
 ### 1.Installation:
