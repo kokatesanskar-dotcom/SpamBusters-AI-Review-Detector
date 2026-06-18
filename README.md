@@ -11,10 +11,15 @@ Online shopping relies heavily on social proof, but the rise of LLMs has made it
 ## Demo-Video Link-
 https://youtu.be/4ivGEatwJm8?si=2QhOTWH0dauhBMsK
 
+## Screenshot-
+
+-![Extension Popup](SampleImage.png)
+
+
 ## Installation and setup
 
 ### 1.Installation:
--Clone this repository: git clone [Your Repo URL]
+-Clone this repository: git clone https://github.com/kokatesanskar-dotcom/SpamBusters-AI-Review-Detector.git
 -Open Chrome and navigate to chrome://extensions/.
 -Enable Developer Mode (top right).
 -Click Load Unpacked and select the project folder.
