@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"> 
+  <style>
+    body {
+      width: 320px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      padding: 20px;
+      text-align: center;
+      background-color: #f9f9f9;
+    }
+
+    h2 { color: #2c3e50; margin-bottom: 8px; }
+
+    p { color: #7f8c8d; font-size: 14px; margin-bottom: 20px; }
+
+    button {
+      background-color: #3498db;
+      color: white;
+      border: none;
+      padding: 14px;
+      font-size: 16px;
+      border-radius: 10px;
+      cursor: pointer;
+      width: 100%;
+      font-weight: bold;
+    }
+
+    #result {
+      margin-top: 20px;
+      font-size: 14px;
+      padding: 12px;
+      border-radius: 8px;
+      line-height: 1.4;
+      white-space: pre-line;
+      display: none;
+      text-align: left;
+    }
+
+    .safe { background-color: #d4edda; color: #155724; display: block !important; }
+    .danger { background-color: #f8d7da; color: #721c24; display: block !important; }
+    .loading { display: block !important; }
+
+    #dashboard {
+      margin-top: 15px;
+      font-size: 13px;
+      background: #ffffff;
+      border-radius: 8px;
+      padding: 10px;
+      border: 1px solid #ddd;
+      white-space: pre-line;
+      text-align: left;
+    }
+  </style>
+</head>
+
+<body>
+  <h2>🛡️ SpamBusters</h2>
+  <p>AI-powered review moderation assistant</p>
+  
+  <button id="checkBtn">Analyze Review</button>
+  
+  <div id="result"></div>
+
+  <div id="dashboard">
+Reviews scanned: 0
+Fake detected: 0
+AI-generated detected: 0
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

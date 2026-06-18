@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "SpamBusters",
+  "version": "1.0",
+  "description": "AI-powered fake review detector",
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ]
+}
